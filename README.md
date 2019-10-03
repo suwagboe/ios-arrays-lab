@@ -10,6 +10,17 @@ Create an array of strings called `colors` that contain "orange", "red", "yellow
 
 Then, using array subscripting and string interpolation, print out the String `"orange, yellow, and lavender are some of my favorite colors"`.
 
+```
+var colors : [String]
+colors = ["orange", "red", "yellow", "turquoise", "lavender"]
+
+var colors1 = colors[0]
+var colors3 = colors[2]
+var lastcolor = colors[colors.count - 1]
+
+print(" \(colors1) , \(colors3), \(lastcolor)are some of my favorite colors.")
+
+```
 
 ## Question 2
 
@@ -17,15 +28,25 @@ Remove "Illinois" and "Kansas" from the array below.
 
 `var westernStates = ["California", "Oregon", "Washington", "Idaho", "Illinois", "Kansas"]`
 
+```
+var westernStates = ["California", "Oregon", "Washington", "Idaho", "Illinois", "Kansas"]
 
-## Question 3
+let removeWestern1 = westernStates.remove(at:4)
+print(westernStates)
+let removeWestern2 = westernStates.remove(at: westernStates.count - 1 )
+print(westernStates)
+```
+```
+
+```
+## Question 3(Why am I iterating)
 
 Iterate through the array below. For each state, print out the name of the state, a colon, and whether it is or is not **in the continental United States.**
 
 `let moreStates = ["Hawaii", "New Mexico", "Alaska", "Montana", "Texas", "New York", "Florida"]`
 
 
-## Question 4
+## Question 4(?)
 
 Print out how many non-whitespace characters are in `myString`:
 
@@ -36,7 +57,7 @@ Iterate through the array below. For each sentence, print out how many non-white
 `let myFavoriteQuotes = ["To be or not to be, that is the question.", "The only source of knowledge is experience.", "Mr. Gorbachev, tear down this wall!", "Four score and twenty years ago..."]`
 
 
-## Question 5
+## Question 5 "(?)
 
 Iterate through `garden` and place any 🌷 that you find into the `basket`. Replace any 🌷 that you pick up with `"dirt"`. Then print how many 🌷 are in your `basket`.
 
@@ -55,7 +76,14 @@ The below array represents an unfinished batting lineup for a baseball team. **Y
 - Put "Reyes" to bat 8th instead.
 
 `var battingLineup = ["Reyes", "Jeter", "Ramirez", "Pujols","Griffey","Thomas","Jones", "Rodriguez"]`
-
+```
+battingLineup.append("Suzuki")
+print(battingLineup)
+battingLineup[1] = "Tejada"
+print(battingLineup)
+battingLineup[5]="Guerrero"
+print(battingLineup
+```
 
 ## Question 7
 
