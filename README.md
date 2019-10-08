@@ -146,8 +146,9 @@ let arrayOfNumbers: [Int] = (1...100).map{ _ in Int.random(in: 0...200)}.map{Int
 Iterate through `secondListOfNumbers`, and print out all the odd numbers.
 
 `var secondListOfNumbers = [19,13,14,19,101,10000,141,404]`
-
-
+```
+for odd in 
+```
 ## Question 11
 
 Iterate through `thirdListOfNumbers`, and print out the sum.
